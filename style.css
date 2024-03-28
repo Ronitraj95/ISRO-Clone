@@ -1,0 +1,468 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* ----------------------------------------------------------First Navbar---------------------------------------------------------------- */
+.navbar {
+  height: 80px;
+  width: 100%;
+  background-color: #004079;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#banner {
+  background-image: url(isrobannerLarge.png);
+  background-size: contain;
+  height: 60px;
+  width: 80%;
+  background-repeat: no-repeat;
+}
+/* -------------------------------------search box--------------------------------- */
+.navbar2 {
+  width: 100%;
+  height: 3rem;
+  background-color: #1d69ab;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#home {
+  padding-left: 50px;
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: #ffff;
+}
+
+#search {
+  padding-left: 100px;
+  height: 2rem;
+  width: 30%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 200;
+}
+#search input {
+  height: 1.5rem;
+  width: 80%;
+}
+#dot {
+  color: #fff;
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+/* ------------------------------------------------------------------------flash box----------------------------------- */
+.flashbox {
+  height: 3rem;
+  width: 100%;
+  background-color: #004079;
+  color: rgb(204, 134, 13);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+marquee {
+  color: yellow;
+  font-size: 0.9rem;
+}
+/*--------------------------------------------Hero Video---------------------------------------------------- */
+.video {
+  height: fit-content;
+  width: 100vw;
+  padding-left: 6rem;
+}
+/* -------------------------------Hero boxes---------------------- */
+.hero {
+  height: 2rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background-color: #fff;
+}
+
+.box {
+  margin-top: 0;
+  border: 2px solid #1d69ab;
+  border-radius: 3px;
+  height: 2rem;
+  width: 10rem;
+  background-color: #1d69ab;
+}
+
+p {
+  text-align: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  opacity: 1;
+}
+
+.HeroBelow {
+  margin-top: 2px;
+  height: 2rem;
+  width: 100%;
+  background-color: #004079;
+}
+/* -------------------------------News box-------------------- */
+.special {
+  height: 295.2px;
+  width: 100%;
+  background-color: #c9d8fa;
+  padding-top: 10px 0px 4px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.topnews {
+  height: 238.4px;
+  width: 403.34px;
+  background-color: #1d69ab;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #03234a;
+}
+
+.headling {
+  height: 70.4px;
+  width: 401.74px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #004079;
+}
+.arrow {
+  color: yellow;
+}
+
+.highlights {
+  height: 238.4px;
+  width: 403.34px;
+  color: #1d69ab;
+  background-color: #c9d8fa;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  color: #03234a;
+}
+
+#yojna {
+  background-image: url(YuvikaBanner1.jpg);
+  height: 190px;
+  width: 440.34px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border: 2px solid red;
+  margin-top: 20px;
+}
+/* ----------------------------------ISRO Portel-------------------------------- */
+.portel {
+  height: 175.2px;
+  width: 100%;
+  background-color: rgb(2, 12, 68);
+  padding: 10px 0px;
+}
+
+.title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  color: #fff;
+  padding-left: 50px;
+}
+
+.portelimg {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.port {
+  height: 60px;
+  width: 60px;
+  border: 3px solid rgb(0, 171, 255);
+  background-size: cover;
+  border-radius: 50%;
+  margin: 9px 0px 0px;
+}
+
+#ports1 {
+  background-image: url(igrasp.png.webp);
+}
+
+#ports2 {
+  background-image: url(stem.png.webp);
+}
+
+#ports3 {
+  background-image: url(spark.png.webp);
+}
+
+#ports4 {
+  background-image: url(mosdac.jpg.webp);
+}
+
+#ports5 {
+  background-image: url(issdc.png.webp);
+}
+
+#ports6 {
+  background-image: url(bhoonidhi.png.webp);
+}
+
+#ports7 {
+  background-image: url(bhuvan.png.webp);
+}
+
+#ports8 {
+  background-image: url(vedas.png.webp);
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fff;
+}
+/* ----------------------------Recent Update----------------------------- */
+.update {
+  height: 27.2px;
+  width: 100%;
+  background-color: #ffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #03234a;
+  padding-left: 20px;
+}
+
+/* ----------------------------------Images Section----------------------- */
+.imagesection {
+  height: 425.66px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: stretch;
+  border-top: 3px solid blue;
+  padding: 20px;
+  gap: 10px;
+}
+
+.img {
+  height: 400px;
+  width: 429px;
+  border: 2px solid red;
+  background-size: cover;
+}
+#img1 {
+  background-image: url(GSLV-F14.jpg);
+}
+
+#img2 {
+  background-image: url(PSLV-C58.webp);
+}
+
+#img3 {
+  background-image: url(Gaganyaan.webp);
+}
+
+#img4 {
+  background-image: url(PSLVC57_PostImg.jpg);
+}
+/* -------------------------------------Footer------------------------------------------------------- */
+.isrocentre {
+  height: 350px;
+  width: 100%;
+  background-color: gray;
+  padding: 50px 0px 50px 0px;
+}
+
+.footer2{
+  background-color: #03234a;
+  height: 300px;
+  width: 100%;
+  color: #ffff;
+
+}
+ 
+.footerheading{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.autoimage{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.bodies{
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+}
+
+#body1{
+  background-image: url(iist_small.png.webp);
+  background-size: auto;
+}
+
+#body2{
+  background-image: url(SHAR.jpg\ \(1\).webp);
+  background-size: cover;
+}
+
+#body3{
+  background-image: url(inspace_large.jpg.webp);
+  background-size: cover;
+}
+
+/* --------------------------------------------------links-------------------------------------- */
+.links {
+  height: 172px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    black 20%,
+    purple 40% 60%,
+    #03234a 80%);
+    color: white;
+}
+
+#heading{
+  height: 26.5px;
+  width: 936px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.row{
+  height: 36px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 20px;
+}
+
+#box1{
+  background-color: #8e6c33;
+  border-radius: 50px;
+  height: 36px;
+  width: 166px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#box2{
+  background-color: #8e6c33;
+  border-radius: 50px;
+  height: 36px;
+  width: 166px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#box3{
+  background-color: #8e6c33;
+  border-radius: 50px;
+  height: 36px;
+  width: 166px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#box4{
+  background-color: #8e6c33;
+  border-radius: 50px;
+  height: 36px;
+  width: 166px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#box5{
+  background-color: #8e6c33;
+  border-radius: 50px;
+  height: 36px;
+  width: 166px;
+  font-size: 16px;
+  text-align: center;
+}
+/* -----------------------------------------------------------Addresss------------------------------------------------ */
+.footer3{
+     height: 427.4px;
+     width: 100%;
+     background-color:#03234a;
+     font-family: Helvetica, Verdana, Tahoma, sans-serif;
+     font-size: 16px;
+     color: #ffff;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+}
+
+#fulladd{
+  height: 140.8px;
+  width: 293px;
+  background-color:purple;
+  border-radius: 5px;
+}
+
+.copyright{
+  height: 140px;
+  width: 293px;
+  background-color: #03234a;
+}
+
+#footimge1{
+  background-image: url(indiagov_logo.jpg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 26.71px;
+  width: 100px;
+}
+
+#footimge2 {
+  background-image: url(india_code_logo.jpg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 45.5px;
+  width: 80px;
+}
+
+#footimge3{
+  background-image: url(STQC.jpg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 68.81px;
+  width: 65px;
+}
+
+#footimge4{
+  background-image: url(Chandrayaan3LogoVector.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 58.49px;
+  width: 190px;
+}
+
+#lastcopy{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #03234a;
+  height: 89.8px;
+  width: 100%x;
+}
