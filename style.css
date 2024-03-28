@@ -5,7 +5,7 @@
 /* ----------------------------------------------------------First Navbar---------------------------------------------------------------- */
 .navbar {
   height: 80px;
-  width: 100%;
+  width: 1440px;
   background-color: #004079;
   display: flex;
   align-items: center;
@@ -16,12 +16,12 @@
   background-image: url(isrobannerLarge.png);
   background-size: contain;
   height: 60px;
-  width: 80%;
+  width: 60%;
   background-repeat: no-repeat;
 }
 /* -------------------------------------search box--------------------------------- */
 .navbar2 {
-  width: 100%;
+  width: 1440px;
   height: 3rem;
   background-color: #1d69ab;
   display: flex;
@@ -56,7 +56,7 @@
 /* ------------------------------------------------------------------------flash box----------------------------------- */
 .flashbox {
   height: 3rem;
-  width: 100%;
+  width: 1440px;
   background-color: #004079;
   color: rgb(204, 134, 13);
   font-family: Arial, Helvetica, sans-serif;
@@ -68,14 +68,17 @@ marquee {
 }
 /*--------------------------------------------Hero Video---------------------------------------------------- */
 .video {
-  height: fit-content;
-  width: 100vw;
-  padding-left: 6rem;
+  background-image: url(isro\ video.webp);
+   background-size: contain;
+   background-repeat: no-repeat;
+  height: 50rem;
+   width: 1440px;
+   margin-left: 25rem;
 }
 /* -------------------------------Hero boxes---------------------- */
 .hero {
   height: 2rem;
-  width: 100%;
+  width: 1440px;
   display: flex;
   align-items: flex-start;
   justify-content: space-evenly;
@@ -102,13 +105,13 @@ p {
 .HeroBelow {
   margin-top: 2px;
   height: 2rem;
-  width: 100%;
+  width: 1440px;
   background-color: #004079;
 }
 /* -------------------------------News box-------------------- */
 .special {
   height: 295.2px;
-  width: 100%;
+  width: 1440px;
   background-color: #c9d8fa;
   padding-top: 10px 0px 4px;
   color: white;
@@ -161,7 +164,7 @@ p {
 /* ----------------------------------ISRO Portel-------------------------------- */
 .portel {
   height: 175.2px;
-  width: 100%;
+  width: 1440px;
   background-color: rgb(2, 12, 68);
   padding: 10px 0px;
 }
@@ -230,7 +233,7 @@ p {
 /* ----------------------------Recent Update----------------------------- */
 .update {
   height: 27.2px;
-  width: 100%;
+  width: 1440px;
   background-color: #ffff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #03234a;
@@ -240,7 +243,7 @@ p {
 /* ----------------------------------Images Section----------------------- */
 .imagesection {
   height: 425.66px;
-  width: 100%;
+  width: 1440px;
   background-color: #fff;
   display: flex;
   justify-content: stretch;
@@ -273,7 +276,7 @@ p {
 /* -------------------------------------Footer------------------------------------------------------- */
 .isrocentre {
   height: 350px;
-  width: 100%;
+  width: 1440px;
   background-color: gray;
   padding: 50px 0px 50px 0px;
 }
@@ -312,7 +315,7 @@ p {
 
 #body1{
   background-image: url(iist_small.png.webp);
-  background-size: auto;
+  background-size: cover;
 }
 
 #body2{
@@ -328,7 +331,7 @@ p {
 /* --------------------------------------------------links-------------------------------------- */
 .links {
   height: 172px;
-  width: 100%;
+  width: 1440px;
   background: linear-gradient(
     to right,
     black 20%,
@@ -349,7 +352,7 @@ p {
 
 .row{
   height: 36px;
-  width: 100%;
+  width: 1440px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -404,7 +407,7 @@ p {
 /* -----------------------------------------------------------Addresss------------------------------------------------ */
 .footer3{
      height: 427.4px;
-     width: 100%;
+     width: 1440px;
      background-color:#03234a;
      font-family: Helvetica, Verdana, Tahoma, sans-serif;
      font-size: 16px;
@@ -464,5 +467,5 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #03234a;
   height: 89.8px;
-  width: 100%x;
+  width: 1440px;
 }
